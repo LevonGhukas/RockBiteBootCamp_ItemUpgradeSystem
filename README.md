@@ -1,15 +1,14 @@
 🎮 Item Upgrade System
-
 Welcome to the Item Upgrade System! This Java-based project simulates an inventory system for a game where items can be created, stored, and upgraded based on rarity. The system uses object-oriented programming principles and provides functionality for managing, upgrading, and saving items in a clean and efficient way.
-🌟 Features
 
+🌟 Features
 Item Management: Create, add, and organize items in an inventory grouped by rarity.
 Upgrade Mechanics: Combine items of the same type and rarity to upgrade them to higher rarities.
 Random Item Generation: Generate items with rarities based on weighted probabilities.
 Inventory Persistence: Save the inventory to a file and reload it anytime.
 User-Friendly Output: Displays inventory in a clear and structured way with meaningful messages.
-🛠️ How It Works
 
+🛠️ How It Works
 Item Classes
 Each item has a name, rarity, and (if Epic) an upgrade count.
 Rarity progresses in the following order: COMMON → GREAT → RARE → EPIC → LEGENDARY.
@@ -34,7 +33,6 @@ Running the Program
 4.Run the program: java Main
 
 📋 Example Usage
-
 Here's an example of what you can expect when running the program:
 🎲 Generating random items...
 🎲 Generated item: Iron Sword (COMMON)
@@ -51,7 +49,6 @@ RARE:
 =================
 
 ✅ Inventory successfully saved to file: inventory.txt
-
 🔄 Reloading inventory from file...
 ✅ Inventory successfully loaded from file: inventory.txt
 
