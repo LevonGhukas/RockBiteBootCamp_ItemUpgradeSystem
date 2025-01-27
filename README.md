@@ -32,48 +32,6 @@ Running the Program
 3.Compile the program: javac Main.java
 4.Run the program: java Main
 
-📋 Example Usage
-Here's an example of what you can expect when running the program:
-🎲 Generating random items...
-🎲 Generated item: Iron Sword (COMMON)
-🎲 Generated item: Iron Shield (GREAT)
-🎲 Generated item: Iron Helmet (RARE)
-
-=== Inventory ===
-COMMON:
-  Iron Sword (x1): [Iron Sword (COMMON)]
-GREAT:
-  Iron Shield (x1): [Iron Shield (GREAT)]
-RARE:
-  Iron Helmet (x1): [Iron Helmet (RARE)]
-=================
-
-✅ Inventory successfully saved to file: inventory.txt
-🔄 Reloading inventory from file...
-✅ Inventory successfully loaded from file: inventory.txt
-
-=== Inventory ===
-COMMON:
-  Iron Sword (x1): [Iron Sword (COMMON)]
-GREAT:
-  Iron Shield (x1): [Iron Shield (GREAT)]
-RARE:
-  Iron Helmet (x1): [Iron Helmet (RARE)]
-=================
-
-🔧 Attempting to upgrade items...
-⚠️ Not enough COMMON items to upgrade Iron Sword. Required: 3, Available: 1.
-⚠️ Not enough RARE items to upgrade Iron Shield. Required: 3, Available: 1.
-
-=== Inventory ===
-COMMON:
-  Iron Sword (x1): [Iron Sword (COMMON)]
-GREAT:
-  Iron Shield (x1): [Iron Shield (GREAT)]
-RARE:
-  Iron Helmet (x1): [Iron Helmet (RARE)]
-=================
-
 📂 File Structure
 .
 ├── Main.java          # Entry point for the program
